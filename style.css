@@ -7,16 +7,21 @@
 
 body {
     font-family: system-ui;
-    background-color: rgb(40, 40, 40);
+    /*background-color: rgb(40, 40, 40);*/
+    background: linear-gradient(to bottom, rgb(60, 5, 5), rgb(84, 8, 8),rgb(48, 4, 4), rgb(39, 2, 2), rgb(0, 0, 0) );
 }
 
 header {
-    background-color: rgba(20, 20, 20);
+    background-color: rgb(91, 18, 18);
 }
 
 a {
     text-decoration: none;
     color: #fff;
+}
+
+ul{
+    display: flex;
 }
 
 .navbar {
@@ -29,21 +34,21 @@ a {
 }
 
 .navbar-header {
+    font-family: 'Monomaniac One', sans-serif;
     font-size: 1.2rem;
-    font-weight: bold;
     margin-left: 20px;
 }
 
 .navbar-body {
     display: flex;
     list-style: none;
-    margin-right: 20px;
+    margin-left: 1100px;
 }
 
 .navbar-body a {
-    padding: 15px 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 7px;
     transition: background-color 0.3s ease;
 }
@@ -106,4 +111,5 @@ a {
 
 .populares {
     border: 2px red solid;
+    height: 600px;
 }
