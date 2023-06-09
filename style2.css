@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+}
+
+.pj-info {
+    position: relative;
+    left: -3000px;
+    transition: all .5s ease;
+}
