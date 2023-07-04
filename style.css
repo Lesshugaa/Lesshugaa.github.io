@@ -12,12 +12,12 @@ body {
 }
 
 header {
-    background-color: rgb(91, 18, 18);
+    background-color: rgb(199, 255, 91);
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 ul{
@@ -109,6 +109,25 @@ ul{
 }
 
 .populares {
-    border: 2px red solid;
-    height: 600px;
+    border-radius: 15px;
+    height: 180px;
+    color: #ffffffe7;
+    background-color: rgb(120, 0, 204);
+    margin-left: 5px;
+    margin-bottom: 50px;
+    
+}
+h4 {
+    margin-top: 3px;
+    margin-left: 7px;
+}
+.banner{
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    height: 250px;
+}
+#me{
+    color: black;
 }
