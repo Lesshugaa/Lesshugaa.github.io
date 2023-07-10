@@ -78,6 +78,8 @@ ul{
     width: 201px;
     height: 350px;
     overflow-wrap: break-word;
+    transition: box-shadow 0.3s ease;
+    border-radius: 12px;
 }
 
 .serie-img {
@@ -102,11 +104,17 @@ ul{
     height: 100%;
     object-fit: fill;
     border-radius: 7px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .serie img:hover {
     transform: scale(1.1);
+    
+}
+
+.serie:hover {
+    box-shadow: 1px -1px 13px 7px rgba(0,0,0,0.57);
+
 }
 
 .populares {
