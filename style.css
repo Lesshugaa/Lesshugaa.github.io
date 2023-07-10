@@ -8,7 +8,7 @@
 body {
     font-family: system-ui;
     /*background-color: rgb(40, 40, 40);*/
-    background: linear-gradient(to bottom, rgb(60, 5, 5), rgb(84, 8, 8),rgb(48, 4, 4), rgb(39, 2, 2), rgb(0, 0, 0) );
+    background: linear-gradient(to bottom, rgb(197, 253, 84), rgb(154, 204, 53),rgb(115, 151, 43), rgb(74, 97, 25), rgb(41, 53, 14),rgb(0, 0, 0) );
 }
 
 header {
